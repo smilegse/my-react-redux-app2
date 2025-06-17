@@ -1,5 +1,6 @@
 import React from 'react'
 import CreateTodo from '../components/todo/CreateTodo'
+import TodoList from '../components/todo/TodoList'
 
 export default function TodoPage() {
   return (
@@ -12,6 +13,7 @@ export default function TodoPage() {
                     </div>
                     <div className='card-body'>
                         <CreateTodo/>
+                        <TodoList/>
                     </div>
                 </div>
             </div>
